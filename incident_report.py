@@ -22,8 +22,10 @@ incident_summaries = [
 
 summary = random.choice(incident_summaries)
 
+code = random.randint(10000, 99999)
+
 print()
-print("INCIDENT SUMMARY")
+print(f"INCIDENT SUMMARY || summary id {code}")
 print(summary)
 print(f"Severity: {severity}")
 print(f"Recommended Action: {recommended_action}")
